@@ -1,0 +1,45 @@
+body {
+    background-image: url(bg_photo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-position: center;
+    background-color: #071952;
+}
+
+.container {
+    background-color: #3e5cbea3;
+    width: 30%;
+    margin-top: 100px;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+h3 {
+    font-family: "Bona Nova SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+}
+
+#guess {
+    padding: 10px;
+    width: 40%;
+    font-family: "Bona Nova SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    border: none;
+}
+
+.btn {
+    background-color: #088395;
+    font-size: 15px;
+    font-family: "Bona Nova SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 20px;
+}
