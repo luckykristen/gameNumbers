@@ -29,11 +29,19 @@ function play() {
 
         else {
             if (userNumber < answer) {
-                alert("Try higher number.");
+                Swal.fire({
+                    icon: "error",
+                    title: "Oops...",
+                    text: "Please try lower number.",
+                  })
             }
 
             else if (userNumber > answer) {
-                alert("Try lower number.");
+                Swal.fire({
+                    icon: "error",
+                    title: "Oops...",
+                    text: "Please try higher number.",
+                  })
             }
 
             else {
