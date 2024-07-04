@@ -32,7 +32,7 @@ function play() {
                 Swal.fire({
                     icon: "error",
                     title: "Oops...",
-                    text: "Please try higher number.",
+                    text: "Please try lower number.",
                   })
             }
 
@@ -40,7 +40,7 @@ function play() {
                 Swal.fire({
                     icon: "error",
                     title: "Oops...",
-                    text: "Please try lower number.",
+                    text: "Please try higher number.",
                   })
             }
 
